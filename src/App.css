@@ -42,7 +42,32 @@ button{
 
 }
 
+#getbtn{
+  background-color: #ffc800;
+  border-radius:10px;
+  height: 60px;
+  width: 130px;
+  cursor:pointer;
+  font-family: 'Poppins', sans-serif;
+  border: 0px;
+  font-size: 20px;
+}
+
 #choosetxt{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 0px;
+  font-size: 20px;
+}
+
+#loadingp{
+  color: white;
+  font-family: 'Poppins', sans-serif;
+  margin-right: 0px;
+  font-size: 20px;
+}
+
+#errorp{
   color: white;
   font-family: 'Poppins', sans-serif;
   margin-right: 0px;
@@ -79,6 +104,11 @@ ul{
   border: 3px solid gray;
   width: fit-content;
 
+}
+
+#genpallete{
+  display: flex;
+  flex-direction: row;
 }
 
 #drawcont{

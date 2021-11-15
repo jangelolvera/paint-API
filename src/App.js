@@ -47,16 +47,17 @@ function App() {
   }
 
   //Función para generar un tablero nuevo
-  function resetGame(event) {
+  function resetGame() {
     setSgrid(grid); //Devuelve el grid al estado inicial
     setDraw('empty');//Pone el estado del dibujo en vacio
     setBorders(true);//Vuelve a colocar los bordes
     setUnclick(false); //Se puede volver a pintar
+    window.location.reload();
   }
 
 
   return (
-    
+
     <div className="App">
 
       <div className="header">
