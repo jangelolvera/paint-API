@@ -10,8 +10,7 @@ colorear, contiene toda la funcionalidad para seleccionar un color.
 En este se encuentra la cuadricula en la cual el usuario puede dibujar, además del cuadro que imprime el dibujo al
 darle click al botón Print. Contiene toda la parte funcional para colorear los pixeles.
 
-## Prueba de la app
-![demo Paint](demo/demo_paint.gif)
+
 
 
 
